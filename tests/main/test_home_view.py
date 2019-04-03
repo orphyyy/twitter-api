@@ -13,3 +13,8 @@ class TestHomeView(TestCase):
         text = response.data.decode()
         print(text)
         self.assertIn("Goodbye", text)
+
+    # def test_get_tweet_by_id(self):
+
+    #     response = self.client.get("/tweets/1")
+    #     text = response.data.decode()

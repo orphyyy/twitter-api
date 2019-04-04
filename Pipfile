@@ -6,11 +6,19 @@ verify_ssl = true
 [dev-packages]
 flask-testing = "*"
 nose = "*"
+v = {editable = true,version = "*"}
 
 [packages]
 flask = "*"
 gunicorn = "*"
 flask-restplus = "*"
+psycopg2-binary = "*"
+flask-sqlalchemy = "*"
+flask-migrate = "*"
+flask-script = "*"
+python-dotenv = "*"
+flask-marshmallow = "*"
+marshmallow-sqlalchemy = "*"
 
 [requires]
 python_version = "3.7"
